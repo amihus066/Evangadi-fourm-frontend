@@ -9,7 +9,7 @@ import { BrowserRouter } from "react-router-dom";
 createRoot(document.getElementById("root")).render(
   <UserProvider>
     <QuestionProvider>
-      <BrowserRouter basename="/Evangadi-Forum">
+      <BrowserRouter basename="/Evangadi-fourm-frontend">
         <StrictMode>
           <App />
         </StrictMode>
